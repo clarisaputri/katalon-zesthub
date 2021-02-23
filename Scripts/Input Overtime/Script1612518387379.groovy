@@ -58,5 +58,3 @@ WebUI.click(findTestObject('Object Repository/Page_ZestHub HR/i_Logout_dripicons
 
 WebUI.navigateToUrl('https://hr.zesthub.my.id/login')
 
-WebUI.closeBrowser()
-
