@@ -16,11 +16,9 @@ import com.kms.katalon.core.windows.keyword.WindowsBuiltinKeywords as Windows
 import internal.GlobalVariable as GlobalVariable
 import org.openqa.selenium.Keys as Keys
 
-WebUI.openBrowser('')
+WebUI.openBrowser('https://hr.zesthub.my.id/login')
 
 WebUI.maximizeWindow()
-
-WebUI.navigateToUrl('https://hr.zesthub.my.id/login')
 
 WebUI.setText(findTestObject('Object Repository/Leave Submission/input_Email_email'), 'clarisa@unifam.co.id')
 

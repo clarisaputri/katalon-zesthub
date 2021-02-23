@@ -20,33 +20,31 @@ WebUI.openBrowser('https://hr.zesthub.my.id/login')
 
 WebUI.maximizeWindow()
 
-WebUI.setText(findTestObject('Object Repository/Approval overtimew/input_Email_email'), 'haryo@unifam.co.id')
+WebUI.setText(findTestObject('Object Repository/Leave Approval/input_Email_email'), 'haryo@unifam.co.id')
 
-WebUI.setEncryptedText(findTestObject('Object Repository/Approval overtimew/input_Password_password'), 'aeHFOx8jV/A=')
+WebUI.setEncryptedText(findTestObject('Object Repository/Leave Approval/input_Password_password'), 'aeHFOx8jV/A=')
 
-WebUI.click(findTestObject('Object Repository/Approval overtimew/button_Log In'))
+WebUI.click(findTestObject('Object Repository/Leave Approval/button_Log In'))
 
-WebUI.click(findTestObject('Object Repository/Approval overtimew/a_Overtime'))
+WebUI.click(findTestObject('Object Repository/Leave Approval/a_Leave Management'))
 
-WebUI.click(findTestObject('Object Repository/Approval overtimew/a_Approval'))
+WebUI.click(findTestObject('Object Repository/Leave Approval/a_Approval'))
 
-WebUI.click(findTestObject('Object Repository/Approval overtimew/input_Date_start_date'))
+WebUI.click(findTestObject('Object Repository/Leave Approval/input_Date_start_date'))
 
-WebUI.click(findTestObject('Object Repository/Approval overtimew/td_1'))
+WebUI.click(findTestObject('Object Repository/Leave Approval/td_1'))
 
-WebUI.click(findTestObject('Object Repository/Approval overtimew/input_Date_end_date'))
+WebUI.click(findTestObject('Object Repository/Leave Approval/input_Date_end_date'))
 
-WebUI.click(findTestObject('Object Repository/Approval overtimew/td_28'))
+WebUI.click(findTestObject('Object Repository/Leave Approval/td_28'))
 
-WebUI.click(findTestObject('Object Repository/Approval overtimew/span_Waiting'))
+WebUI.setText(findTestObject('Object Repository/Leave Approval/input_Search_form-control form-control-sm'), 'clarisa')
 
-WebUI.setText(findTestObject('Object Repository/Approval overtimew/input_Search_form-control form-control-sm'), 'clarisa')
+WebUI.click(findTestObject('Object Repository/Leave Approval/a_Reject'))
 
-WebUI.click(findTestObject('Object Repository/Approval overtimew/a_Approve'))
+WebUI.setText(findTestObject('Object Repository/Leave Approval/input__reason'), 'denied')
 
-WebUI.click(findTestObject('Object Repository/Approval overtimew/button_OK'))
+WebUI.click(findTestObject('Object Repository/Leave Approval/button_OK'))
 
-WebUI.navigateToUrl('https://hr.zesthub.my.id/overtime/approval')
-
-WebUI.closeBrowser()
+WebUI.navigateToUrl('https://hr.zesthub.my.id/leave-management/leave-approval')
 
