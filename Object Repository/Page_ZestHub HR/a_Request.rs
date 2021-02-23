@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//div[@id='navigation']/ul/li[3]/ul/li/a</value>
+         <value>//div[@id='navigation']/ul/li[4]/ul/li/a</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -50,7 +50,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//div[@id='navigation']/ul/li[3]/ul/li/a</value>
+      <value>//div[@id='navigation']/ul/li[4]/ul/li/a</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -71,7 +71,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>(.//*[normalize-space(text()) and normalize-space(.)='Dashboard'])[1]/following::a[4]</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Own Activity Assignment'])[1]/following::a[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
@@ -99,6 +99,6 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//li[3]/ul/li/a</value>
+      <value>//li[4]/ul/li/a</value>
    </webElementXpaths>
 </WebElementEntity>

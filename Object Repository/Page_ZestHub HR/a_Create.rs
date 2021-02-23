@@ -6,12 +6,12 @@
    <elementGuidId>9732a908-8dd7-4526-a658-4fbc8b68b149</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>a.btn.btn-success</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//div[@id='wrapper']/div/div/div[2]/div/div/div/a</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>a.btn.btn-success</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

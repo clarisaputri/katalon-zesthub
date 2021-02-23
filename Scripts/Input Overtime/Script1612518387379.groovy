@@ -22,7 +22,7 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://hr.zesthub.my.id/login')
 
-WebUI.setText(findTestObject('Object Repository/input_Email_email'), 'itstrategystaff@unifam.co.id')
+WebUI.setText(findTestObject('Object Repository/input_Email_email'), 'clarisa@unifam.co.id')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/input_Password_password'), 'aeHFOx8jV/A=')
 
@@ -32,19 +32,23 @@ WebUI.click(findTestObject('Object Repository/Page_ZestHub HR/a_Overtime'))
 
 WebUI.click(findTestObject('Page_ZestHub HR/a_Request'))
 
-WebUI.click(findTestObject('Page_ZestHub HR/a_Create'))
+WebUI.navigateToUrl('https://hr.zesthub.my.id/overtime/request')
 
-WebUI.click(findTestObject('Object Repository/input_Date_date'))
+WebUI.click(findTestObject('Object Repository/Page_ZestHub HR/a_Create'))
 
-WebUI.click(findTestObject('Object Repository/td_15'))
+WebUI.click(findTestObject('Object Repository/Page_ZestHub HR/input_Date_date'))
 
-WebUI.setText(findTestObject('Object Repository/input_Time Request_hour'), '3')
+WebUI.click(findTestObject('Object Repository/Page_ZestHub HR/td_24'))
+
+WebUI.setText(findTestObject('Object Repository/Page_ZestHub HR/input_Time Request_hour'), '4')
 
 WebUI.setText(findTestObject('Object Repository/input_Hour_minute'), '0')
 
 WebUI.setText(findTestObject('Object Repository/textarea_Description_description'), 'Lembur')
 
-WebUI.click(findTestObject('Object Repository/button_Save'))
+WebUI.click(findTestObject('Object Repository/Page_ZestHub HR/button_Save'))
+
+WebUI.click(findTestObject('Object Repository/Page_ZestHub HR/button_OK'))
 
 WebUI.refresh()
 

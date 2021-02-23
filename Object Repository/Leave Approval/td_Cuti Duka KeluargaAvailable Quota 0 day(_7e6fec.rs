@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <WebElementEntity>
    <description></description>
-   <name>textarea_Description_description</name>
+   <name>td_Cuti Duka KeluargaAvailable Quota 0 day(_7e6fec</name>
    <tag></tag>
-   <elementGuidId>0436a367-134d-4ff0-a38d-8d02f59e686b</elementGuidId>
+   <elementGuidId>b9befce9-0cee-420e-b4fa-fba711a58ba1</elementGuidId>
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//textarea[@name='description']</value>
+         <value>//table[@id='datatable-waiting']/tbody/tr/td[4]</value>
       </entry>
       <entry>
          <key>CSS</key>
-         <value>textarea[name=&quot;description&quot;]</value>
+         <value></value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>
@@ -21,55 +21,48 @@
       <matchCondition>equals</matchCondition>
       <name>tag</name>
       <type>Main</type>
-      <value>textarea</value>
+      <value>td</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>name</name>
+      <name>text</name>
       <type>Main</type>
-      <value>description</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>false</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>class</name>
-      <type>Main</type>
-      <value>form-control</value>
-   </webElementProperties>
-   <webElementProperties>
-      <isSelected>true</isSelected>
-      <matchCondition>equals</matchCondition>
-      <name>placeholder</name>
-      <type>Main</type>
-      <value>Description</value>
+      <value>Cuti Duka KeluargaAvailable Quota 0 day(s)Request type Full DayRequest 1 day(s)Date 24 Feb 2021 - 24 Feb 2021Reason Kucing meninggalWaiting</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath</name>
       <type>Main</type>
-      <value>id(&quot;wrapper&quot;)/div[@class=&quot;wrapper&quot;]/div[@class=&quot;container-fluid&quot;]/div[@class=&quot;row&quot;]/div[@class=&quot;col-12&quot;]/div[@class=&quot;card m-b-20&quot;]/div[@class=&quot;card-body&quot;]/form[1]/div[@class=&quot;row form-group&quot;]/div[@class=&quot;col-sm-10&quot;]/textarea[@class=&quot;form-control&quot;]</value>
+      <value>id(&quot;datatable-waiting&quot;)/tbody[1]/tr[@class=&quot;odd&quot;]/td[4]</value>
    </webElementProperties>
    <webElementXpaths>
       <isSelected>true</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:attributes</name>
+      <name>xpath:idRelative</name>
       <type>Main</type>
-      <value>//textarea[@name='description']</value>
+      <value>//table[@id='datatable-waiting']/tbody/tr/td[4]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
-      <name>xpath:idRelative</name>
+      <name>xpath:neighbor</name>
       <type>Main</type>
-      <value>//div[@id='wrapper']/div/div/div[2]/div/div/div/form/div[4]/div[2]/textarea</value>
+      <value>(.//*[normalize-space(text()) and normalize-space(.)='Request'])[3]/following::td[2]</value>
+   </webElementXpaths>
+   <webElementXpaths>
+      <isSelected>false</isSelected>
+      <matchCondition>equals</matchCondition>
+      <name>xpath:neighbor</name>
+      <type>Main</type>
+      <value>//*/text()[normalize-space(.)='Available Quota']/parent::*</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>
       <matchCondition>equals</matchCondition>
       <name>xpath:position</name>
       <type>Main</type>
-      <value>//textarea</value>
+      <value>//td[4]</value>
    </webElementXpaths>
 </WebElementEntity>

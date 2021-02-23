@@ -18,9 +18,11 @@ import org.openqa.selenium.Keys as Keys
 
 WebUI.openBrowser('')
 
+WebUI.maximizeWindow()
+
 WebUI.navigateToUrl('https://hr.zesthub.my.id/login')
 
-WebUI.setText(findTestObject('Object Repository/Leave Submission/input_Email_email'), 'itstrategystaff@unifam.co.id')
+WebUI.setText(findTestObject('Object Repository/Leave Submission/input_Email_email'), 'clarisa@unifam.co.id')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Leave Submission/input_Password_password'), 'aeHFOx8jV/A=')
 
@@ -30,34 +32,21 @@ WebUI.click(findTestObject('Object Repository/Leave Submission/a_Leave Managemen
 
 WebUI.click(findTestObject('Object Repository/Leave Submission/a_Request'))
 
+WebUI.navigateToUrl('https://hr.zesthub.my.id/leave-management/leave-submission')
+
 WebUI.click(findTestObject('Object Repository/Leave Submission/a_Create'))
 
+WebUI.selectOptionByValue(findTestObject('Object Repository/Leave Submission/select_Sick Leave                          _8c5b11'), 
+    '18', true)
+
 WebUI.selectOptionByValue(findTestObject('Object Repository/Leave Submission/select_Full Day                            _eaf6fa'), 
-    'Half Day', true)
+    'Full Day', true)
 
-WebUI.click(findTestObject('Object Repository/Leave Submission/div_Request Type                           _35be42'))
+WebUI.click(findTestObject('Object Repository/Leave Submission/input_Date_start_date'))
 
-WebUI.click(findTestObject('Object Repository/Leave Submission/input_Date_date'))
+WebUI.click(findTestObject('Object Repository/Leave Submission/td_24'))
 
-WebUI.click(findTestObject('Object Repository/Leave Submission/td_12'))
-
-WebUI.click(findTestObject('Object Repository/Leave Submission/input_Date_date'))
-
-WebUI.click(findTestObject('Object Repository/Leave Submission/input_Date_time_start'))
-
-WebUI.click(findTestObject('Object Repository/Leave Submission/input_Date_date'))
-
-WebUI.click(findTestObject('Object Repository/Leave Submission/div_Date'))
-
-WebUI.setText(findTestObject('Object Repository/Leave Submission/input_Date_date'), '')
-
-WebUI.click(findTestObject('Object Repository/Leave Submission/td_2'))
-
-WebUI.click(findTestObject('Object Repository/Leave Submission/input_Date_time_start'))
-
-WebUI.click(findTestObject('Object Repository/Leave Submission/a_0000'))
-
-WebUI.setText(findTestObject('Object Repository/Leave Submission/textarea_Reason_reason'), 'cuti')
+WebUI.setText(findTestObject('Object Repository/Leave Submission/textarea_Reason_reason'), 'Kucing meninggal')
 
 WebUI.click(findTestObject('Object Repository/Leave Submission/button_Save'))
 

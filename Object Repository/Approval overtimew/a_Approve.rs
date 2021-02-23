@@ -7,7 +7,7 @@
    <selectorCollection>
       <entry>
          <key>XPATH</key>
-         <value>//a[@onclick=&quot;actionStatus(101,'Approved')&quot;]</value>
+         <value>//a[@onclick=&quot;actionStatus(140,'Approved')&quot;]</value>
       </entry>
       <entry>
          <key>CSS</key>
@@ -42,7 +42,7 @@
       <matchCondition>equals</matchCondition>
       <name>onclick</name>
       <type>Main</type>
-      <value>actionStatus(101,'Approved')</value>
+      <value>actionStatus(140,'Approved')</value>
    </webElementProperties>
    <webElementProperties>
       <isSelected>true</isSelected>
@@ -63,7 +63,7 @@
       <matchCondition>equals</matchCondition>
       <name>xpath:attributes</name>
       <type>Main</type>
-      <value>//a[@onclick=&quot;actionStatus(101,'Approved')&quot;]</value>
+      <value>//a[@onclick=&quot;actionStatus(140,'Approved')&quot;]</value>
    </webElementXpaths>
    <webElementXpaths>
       <isSelected>false</isSelected>

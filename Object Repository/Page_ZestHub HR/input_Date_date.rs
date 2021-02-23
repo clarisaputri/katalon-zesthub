@@ -6,12 +6,12 @@
    <elementGuidId>3b5f1efa-4ef5-4bf1-9589-d562e5a75921</elementGuidId>
    <selectorCollection>
       <entry>
-         <key>CSS</key>
-         <value>input[name=&quot;date&quot;]</value>
-      </entry>
-      <entry>
          <key>XPATH</key>
          <value>//input[@name='date']</value>
+      </entry>
+      <entry>
+         <key>CSS</key>
+         <value>input[name=&quot;date&quot;]</value>
       </entry>
    </selectorCollection>
    <selectorMethod>XPATH</selectorMethod>

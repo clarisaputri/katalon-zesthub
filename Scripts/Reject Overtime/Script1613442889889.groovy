@@ -22,15 +22,15 @@ WebUI.maximizeWindow()
 
 WebUI.navigateToUrl('https://hr.zesthub.my.id/login')
 
-WebUI.setText(findTestObject('Object Repository/Approval overtimew/input_Email_email'), 'itstrategyspc@unifam.co.id')
+WebUI.setText(findTestObject('Object Repository/Approval overtimew/input_Email_email'), 'haryo@unifam.co.id')
 
 WebUI.setEncryptedText(findTestObject('Object Repository/Approval overtimew/input_Password_password'), 'aeHFOx8jV/A=')
 
 WebUI.click(findTestObject('Object Repository/Approval overtimew/button_Log In'))
 
-WebUI.click(findTestObject('Approval overtimew/a_Overtime'))
+WebUI.click(findTestObject('Object Repository/Approval overtimew/a_Overtime'))
 
-WebUI.click(findTestObject('Approval overtimew/a_Approval'))
+WebUI.click(findTestObject('Object Repository/Approval overtimew/a_Approval'))
 
 WebUI.click(findTestObject('Object Repository/Approval overtimew/input_Date_start_date'))
 
@@ -42,13 +42,11 @@ WebUI.click(findTestObject('Object Repository/Approval overtimew/td_28'))
 
 WebUI.click(findTestObject('Object Repository/Approval overtimew/span_Waiting'))
 
-WebUI.setText(findTestObject('Object Repository/Approval overtimew/input_Search_form-control form-control-sm'), 'staff')
+WebUI.setText(findTestObject('Object Repository/Approval overtimew/input_Search_form-control form-control-sm'), 'clarisa')
 
-WebUI.scrollToPosition(900, 900)
+WebUI.click(findTestObject('Object Repository/Approval overtimew/a_Reject'))
 
-WebUI.click(findTestObject('Approval overtimew/a_Reject'))
-
-WebUI.setText(findTestObject('Object Repository/Approval overtimew/input__reason'), 'Gaboleh Lembur')
+WebUI.setText(findTestObject('Object Repository/Approval overtimew/input__reason'), 'ga')
 
 WebUI.click(findTestObject('Object Repository/Approval overtimew/button_OK'))
 

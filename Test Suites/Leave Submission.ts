@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <TestSuiteEntity>
    <description></description>
-   <name>Overtime</name>
+   <name>Leave Submission</name>
    <tag></tag>
    <isRerun>false</isRerun>
    <mailRecipient></mailRecipient>
@@ -10,23 +10,17 @@
    <pageLoadTimeoutDefault>true</pageLoadTimeoutDefault>
    <rerunFailedTestCasesOnly>false</rerunFailedTestCasesOnly>
    <rerunImmediately>false</rerunImmediately>
-   <testSuiteGuid>2682def2-e0f1-472a-824e-ef0f561015cf</testSuiteGuid>
+   <testSuiteGuid>a9887ed0-6b07-4ea9-a2e1-c9de57cc2b4a</testSuiteGuid>
    <testCaseLink>
-      <guid>e4d91315-6024-4690-8a33-b2504c6a1fbc</guid>
+      <guid>12e4d481-98f1-415b-8204-7d85a1c046d7</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Input Overtime</testCaseId>
+      <testCaseId>Test Cases/Leave Submission</testCaseId>
    </testCaseLink>
    <testCaseLink>
-      <guid>c02c44a9-924f-493b-9243-d4489051862e</guid>
+      <guid>6319a128-899f-4bb2-8e69-c57532093bb3</guid>
       <isReuseDriver>false</isReuseDriver>
       <isRun>true</isRun>
-      <testCaseId>Test Cases/Approval Overtime</testCaseId>
-   </testCaseLink>
-   <testCaseLink>
-      <guid>be5d3c81-dac3-4ff5-b92c-177f1b42d820</guid>
-      <isReuseDriver>false</isReuseDriver>
-      <isRun>true</isRun>
-      <testCaseId>Test Cases/Reject Overtime</testCaseId>
+      <testCaseId>Test Cases/Leave Approval</testCaseId>
    </testCaseLink>
 </TestSuiteEntity>
